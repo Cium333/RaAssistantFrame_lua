@@ -1,0 +1,181 @@
+[
+    {
+        "version": "v1.0.2.Dev",
+        "content": [
+            {
+				"level": "normal",
+				"timestamp": "2024年12月7日20:26:20",
+				"content": "优化: 更新日志现在分为框架与具体项目"
+			},
+            {
+				"level": "normal",
+				"timestamp": "2024年12月6日21:52:01",
+				"content": "优化: 右键菜单的弹出优先级现在不会冲突了"
+			},
+            {
+				"level": "normal",
+				"timestamp": "2024年12月6日22:23:10",
+				"content": "优化: 整体编码转换的性能小幅度提升"
+			}
+        ]
+    },
+	{
+		"version": "v1.0.1.20241205",
+		"content": [
+            {
+                "level": "normal",
+				"timestamp": "2024年12月6日22:12:21",
+				"content": "新增: dm插件操作接口"
+            },
+            {
+                "level": "important",
+				"timestamp": "2024年12月6日20:05:35",
+				"content": "新增: DD键鼠驱动操作接口"
+            },
+            {
+                "level": "important",
+				"timestamp": "2024年12月5日17:56:02",
+				"content": "新增: RapidOCR文字识别接口"
+            },
+            {
+                "level": "important",
+				"timestamp": "2024年12月5日17:48:36",
+				"content": "新增: OpenCV图像识别接口"
+            },
+            {
+                "level": "normal",
+				"timestamp": "2024年12月5日16:02:03",
+				"content": "新增: SendInput键鼠操作的接口"
+            },
+            {
+                "level": "important",
+				"timestamp": "2024年12月5日16:02:03",
+				"content": "新增: 账号分组机制,可以将不同账号分组,方便轮号"
+            },
+            {
+                "level": "normal",
+				"timestamp": "2024年12月5日12:13:23",
+				"content": "新增: 引擎线程对UI界面的操作接口"
+            },
+            {
+                "level": "normal",
+				"timestamp": "2024年12月5日12:13:23",
+				"content": "新增: 雷电模拟器操作相关接口"
+            },
+            {
+				"level": "separator"
+            },
+            {
+				"level": "important",
+				"timestamp": "2024年12月5日17:13:49",
+				"content": "优化: 日志队列对锁的抢占优先级做了调整,性能大幅提升"
+			},
+            {
+				"level": "normal",
+				"timestamp": "2024年12月5日17:13:49",
+				"content": "优化: 窗口标题现在会自动更新版本号"
+			},
+            {
+				"level": "normal",
+				"timestamp": "2024年12月5日16:36:25",
+				"content": "优化: 云端重载速度小幅度优化,强制调用锁保证程序不会崩溃"
+			},
+            {
+				"level": "important",
+				"timestamp": "2024年12月4日20:20:39",
+				"content": "优化: 删除控制按钮区域,现在统一使用右键菜单"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:56:40",
+				"content": "优化: 更新日志显示更加详细"
+			},
+            {
+				"level": "important",
+				"timestamp": "2024年12月4日17:50:39",
+				"content": "优化: 日志搜索逻辑不再区分大小写,并且支持模糊搜索,计算任务转到后台线程调用"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:50:39",
+				"content": "优化: 后台计时器不再会影响界面刷新"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "优化: 现在界面的复杂运算都转到后台线程了"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "优化: 云计算逻辑更加智能"
+			},
+			{
+				"level": "important",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "优化: 日志展示现在允许日志翻页了,避免日志过多导致页面卡顿"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "优化: 等待窗口显示的内容现在会显示更详细的信息了"
+			},
+            {
+				"level": "separator"
+            },
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "修复: 长时间运行造成的内存泄露"
+			},
+            {
+				"level": "separator"
+            },
+            {
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "第三方库更新"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "OpenCV:更新至4.10.0版本"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "hpsocket: 更新至6.0.3版本,启用mimalloc提升性能,并进一步缩减体积"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "微软mimalloc内存池:升级至2.1.6版本"
+			},
+			{
+				"level": "normal",
+				"timestamp": "2024年12月4日17:49:30",
+				"content": "其他附加依赖库的更新省略..."
+			}
+		]
+	},
+	{
+		"version": "v1.0.0.20241203",
+		"content": [
+            {
+				"level": "normal",
+				"timestamp": "2024年12月3日17:12:30",
+				"content": "优化: 对线程锁的抢占调度优先级做进一步优化,避免频繁抢占"
+			},
+            {
+				"level": "normal",
+				"timestamp": "2024年12月3日17:12:11",
+				"content": "优化: 将不必要的初始化线程改为运行时动态调用,以提高启动速度"
+			},
+			{
+				"level": "important",
+				"timestamp": "2024年12月2日11:32:30",
+				"content": "完成基础框架"
+			}
+		]
+	}
+]

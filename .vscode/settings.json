@@ -1,0 +1,9 @@
+{
+	"Lua.diagnostics.globals": [
+		"R_Call",
+		"R_Call_Public",
+		"G_AsyncResponse",
+		"G_AsyncHead",
+		"G_ThreadID"
+	],
+}

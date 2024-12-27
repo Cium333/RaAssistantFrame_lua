@@ -1,0 +1,17 @@
+[
+    {
+        "version": "v1.0.0.Dev",
+        "content": [
+            {
+				"level": "normal",
+				"timestamp": "2024年12月6日21:52:01",
+				"content": "新增: sqb任务"
+			},
+            {
+				"level": "normal",
+				"timestamp": "2024年12月6日20:23:10",
+				"content": "新增: 轮号机制"
+			}
+        ]
+    }
+]

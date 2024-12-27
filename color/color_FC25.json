@@ -1,0 +1,38 @@
+{
+	"test_1": {
+		"type": "multiColor",
+		"rect": "0,0,1000,1000",
+		"first_color": "f2f2f2",
+		"offset_color": "12|9|cef0f0,9|5|f1f1cf,7|0|f2f2f2,2|11|000000",
+		"sim": "0.9",
+		"dir": "0"
+	},
+	"test_2": {
+		"type": "color",
+		"rect": "0,0,1000,1000",
+		"color": "f2f2f2",
+		"sim": "0.9",
+		"dir": "0"
+	},
+	"test_3": {
+		"type": "pic",
+		"rect": "0,0,1000,1000",
+		"pic_name": "f2f2f2",
+		"delta_color": "101010",
+		"sim": "0.9",
+		"dir": "0"
+	},
+	"test_4": {
+		"type": "str",
+		"rect": "0,0,1000,1000",
+		"string": "????",
+		"color_format": "9f2e3f-000000",
+		"sim": "0.9"
+	},
+	"test_5": {
+		"type": "dmocr",
+		"rect": "0,0,1000,1000",
+		"color_format": "????",
+		"sim": "0.9"
+	}
+}
